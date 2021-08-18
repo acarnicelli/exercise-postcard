@@ -1,0 +1,83 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+* {
+	font-family: "Gloria Hallelujah", cursive;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.postcard-header h1 {
+	width: 600px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	margin-left: 10px;
+}
+
+.body-left p {
+	font-weight: 600;
+	font-size: 13px;
+	margin: 5px;
+	width: 240px;
+}
+
+#top-p {
+	margin-bottom: 15px;
+}
+
+.body-right {
+	margin-right: 10px;
+}
+
+.body-right input {
+	width: 120px;
+	margin-left: 4px;
+	margin-top: 5px;
+
+	color: rgb(119, 119, 119);
+	font-size: 15px;
+	font-weight: 600;
+
+	border: none;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(175, 174, 174);
+	padding: 3px;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
